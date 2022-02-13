@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Reference Page</title>
+        <link rel="stylesheet" href="../../resources/css/index.css">
+        <link rel="stylesheet" href="../../resources/css/csshome.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Josh's Personal Reference for HTML</h1>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html" class="nav">Home</a></li>
+                    <div class="subnav">
+                        <li><a href="../../references.html" class="nav">References</a></li>
+                        <div class="subnav-drop">
+                            <a href="../html/htmlhome.html">HTML Reference</a>
+                        </div>
+                    </div>
+                    <li><a href="../../portfolio.html" class="nav">Portfolio</a></li>
+                    <li><a href="../../contact.html" class="nav">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h1>Getting Started with HTML Pages</h1>
+                <p>The best place for me to start a new html page is with a blank slate. It's easy to copy and paste code you need or have already, but a good foundation is key.
+                    <br>If you haven't had anything generate a webpage auto-magically for you, reference this template for the basics.
+                    <br>It includes proper labels for most of the important elements, but you can delete them if you don't need them.
+                    <br>
+                    <br>Included for quick reference at the bottom of the page is a table full of all the elements and tags we covered.
+                </p>
+
+                <h2>Basic Building Blocks of every HTML document</h2>
+
+                <h3>DocType Declaration</h3>
+                <details>
+                    <summary>more</summary>
+                    <p>This is required. It must go at the top for a webpage to render properly.
+                        <br>&lt;!DOCTYPE&gt; is the declaration. As of HTML5, all that is needed is an html argument.
+                        <br>It is no longer necessary to specify the reference to the current version.
+                        <br>
+                        <br>Your declaration should just look like this: &lt;!DOCTYPE html&gt;
+                    </p>
+                </details>
+
+                <h3>The &lt;html&gt; tag</h3>
+                <details>
+                    <summary>more</summary>
+                    <p>This is also required. It must go below the declaration, and encloses all html elements for a webpage to render properly.
+                        <br>&lt;html&gt; is the tag. It can take any global attributes.
+                        <br>Important attributes include hidden, lang, and style. This tag requires a closing tag.
+                        <br>
+                        <br><h4>Your code should just look like this:</h4>
+                        &lt;!DOCTYPE html&gt;
+                        <br>&lt;html&gt;
+                        <br>&emsp;<i>Your code goes here.</i>
+                        <br>&lt;/html&gt;
+                    </p>
+                </details>
+
+                <h3>The &lt;head&gt; and &lt;title&gt; tags</h3>
+                <details>
+                    <summary>more</summary>
+                    <p>These are also required. It must go below the declaration, and inside the &lt;html&gt; tags. It should enclose any metadata for search engines and web crawlers to help understand what a human is seeing.
+                        <br>
+                        <br>&lt;head&gt; is our first tag. It can take any global attributes. None of the content in this element is visible on the actual webpage.
+                        <br>The tags this section expect to see are: &lt;title&gt;,&lt;style&gt;,&lt;base&gt;,&lt;link&gt;,&lt;meta&gt;,&lt;script&gt;,&lt;noscript&gt; can be used inside this element.
+                        <br>
+                        <br>Next up is the &lt;title&gt; tag. It must go inside the &lt;head&gt; tags. It must be text only, as this is not formatted. This is what appears in the browser's tab when the webpage is open.
+                        <br>Search engines also use this as a title for your page. Search engines only display 50-60 charcters of the title element. There may only be one title element. It is not visible on the webpage other than the tab title.
+                        <br>
+                        <br><h4>Your code should just look like this:</h4>
+                        &lt;!DOCTYPE html&gt;
+                        <br>&lt;html&gt;
+                        <br>&emsp;&lt;head&gt;
+                        <br>&emsp;&emsp;&lt;title&gt;<i>Webpage Title Goes Here</i>&lt;/title&gt;
+                        <br>&emsp;&lt;/head&gt;
+                        <br>&emsp;<i>Your code goes here.</i>
+                        <br>&lt;/html&gt;
+                    </p>
+                </details>
+
+                <h3>The &lt;body&gt; tag</h3>
+                <details>
+                    <summary>more</summary>
+                    <p>
+                        These is the last required tag. It must go below the declaration of the &lt;head&gt; tags. It should enclose any content you will display on the webpage. This is the website.
+                        <br>&lt;body&gt; is the tag. It can take any global and event attributes. All of this content is visible on the actual webpage.
+                        
+                        <br><h4>Your code should just look like this:</h4>
+                        &lt;!DOCTYPE html&gt;
+                        <br>&lt;html&gt;
+                        <br>&emsp;&lt;head&gt;
+                        <br>&emsp;&emsp;&lt;title&gt;<i>Webpage Title Goes Here</i>&lt;/title&gt;
+                        <br>&emsp;&lt;/head&gt;
+                        <br>
+                        <br>&emsp;&lt;body&gt;
+                        <br>&emsp;&emsp;<i>Your code goes here.</i>
+                        <br>&emsp;&lt;/body&gt;
+                        <br>&lt;/html&gt;
+                    </p>
+                </details>
+            </article>
+        </main>
+
+        <footer>
+            <table>
+                <tr>
+                    <th>Tag name</th>
+                    <th>Syntax</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>DocType</td>
+                    <td>&lt;!DOCTYPE html&gt;</td>
+                    <td>No Data Yet</td>
+                </tr>
+                <tr>
+                    <td>HTML Tag</td>
+                    <td>&lt;html&gt;</td>
+                    <td>No Data Yet</td>
+                </tr>
+                <tr>
+                    <td>Head Tag</td>
+                    <td>&lt;head&gt;</td>
+                    <td>No Data Yet</td>
+                </tr>
+                <tr>
+                    <td>Title Tag</td>
+                    <td>&lt;title&gt;</td>
+                    <td>No Data Yet</td>
+                </tr>
+                <tr>
+                    <td>Body Tag</td>
+                    <td>&lt;body&gt;</td>
+                    <td>No Data Yet</td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>
